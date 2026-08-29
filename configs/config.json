@@ -1,0 +1,54 @@
+{
+    "to-let-yall-know": "ALL OF THIS IS THE DEFAULTS FOR ALL GUILDS",
+  "prefix": "!",
+  "botName": "Nova Moderation",
+  "branding": {
+    "color": "#5865F2",
+    "successColor": "#57F287",
+    "errorColor": "#ED4245",
+    "warnColor": "#FEE75C",
+    "footer": "Nova Moderation",
+    "iconURL": "https://cdn.discordapp.com/icons/1504053808219820092/d98c83d70d970cfd3cf22bdb6c4900e6.webp?size=3072"
+  },
+  "owners": [],
+  "defaults": {
+    "welcomeMessage": "Welcome {user} to **{server}**! You are member #{count}.",
+    "goodbyeMessage": "{user} has left the server. We now have {count} members.",
+    "ticketCategories": [
+      { "label": "General Support", "value": "general", "emoji": "🎫" },
+      { "label": "Report a User", "value": "report", "emoji": "🚨" },
+      { "label": "Billing Question", "value": "billing", "emoji": "💳" }
+    ],
+    "automod": {
+      "antiSlur": true,
+      "antiSpam": true,
+      "antiLink": false,
+      "antiInvite": true,
+      "antiMassMention": true,
+      "antiEveryone": false,
+      "antiHere": false,
+      "antiCaps": true,
+      "antiEmojiSpam": true,
+      "warnOnFlag": true,
+      "timeoutOnRepeat": true,
+      "timeoutMs": 300000,
+      "spamThreshold": 5,
+      "spamWindowMs": 5000,
+      "capsThreshold": 70,
+      "capsMinLength": 10,
+      "mentionThreshold": 5,
+      "emojiThreshold": 8,
+      "blacklist": [
+        "n1gger", "n!gger", "f@ggot", "fagg0t", "kike", "tr@nny",
+        "retard", "r3tard", "spic", "ch!nk", "raghead", "nigga", "nigger"
+      ],
+      "linkWhitelist": ["discord.com", "discord.gg", "youtube.com", "youtu.be"]
+    },
+    "leveling": { "enabled": true, "xpPerMessage": 15, "cooldownMs": 60000 }
+  },
+  "statusRotation": [
+    { "type": "Watching", "text": "over the server" },
+    { "type": "Playing", "text": "with moderation tools" },
+    { "type": "Listening", "text": "for !help" }
+  ]
+}
